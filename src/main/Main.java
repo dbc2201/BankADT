@@ -15,5 +15,6 @@ public class Main {
         ICICIBank iciciBankMathuraBranch = new ICICIBank();
         System.out.println("Rate of interest of ICICI Bank is: " + iciciBankMathuraBranch.getRateOfInterest());
         IOBBank iobBankGLABranch = new IOBBank();
+        System.out.println("Rate of interest of IOB Bank is: " + iobBankGLABranch.getRateOfInterest());
     }
 }
