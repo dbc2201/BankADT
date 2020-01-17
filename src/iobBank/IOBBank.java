@@ -16,6 +16,11 @@ import rbi.Bank;
  */
 public class IOBBank implements Bank {
 
+    /**
+     * This method returns the rate of interest in a savings account for IOB bank.
+     *
+     * @return the rate of interest in a savings account for IOB bank i.e 4%
+     */
     @Override
     public int getRateOfInterest() {
         // the rate of interest of IOB Bank is 3%
