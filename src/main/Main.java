@@ -12,5 +12,6 @@ import iciciBank.ICICIBank;
 public class Main {
     public static void main(String[] args) {
         ICICIBank iciciBankMathuraBranch = new ICICIBank();
+        System.out.println("Rate of interest of ICICI Bank is: " + iciciBankMathuraBranch.getRateOfInterest());
     }
 }
