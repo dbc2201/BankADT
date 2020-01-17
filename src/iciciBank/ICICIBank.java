@@ -12,7 +12,8 @@ import rbi.Bank;
 public class ICICIBank implements Bank {
     @Override
     public int getRateOfInterest() {
-        return 0;
+        // the rate of interest of ICICI Bank is 10%
+        return 10;
     }
 
     @Override
