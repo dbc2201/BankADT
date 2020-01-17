@@ -7,8 +7,10 @@
 
 package main;
 
+import iciciBank.ICICIBank;
+
 public class Main {
     public static void main(String[] args) {
-
+        ICICIBank iciciBankMathuraBranch = new ICICIBank();
     }
 }
