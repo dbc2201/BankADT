@@ -12,6 +12,7 @@ import iobBank.IOBBank;
 
 public class Main {
     public static void main(String[] args) {
+        // create an object of the ICICI Bank class
         ICICIBank iciciBankMathuraBranch = new ICICIBank();
         System.out.println("Rate of interest of ICICI Bank is: " + iciciBankMathuraBranch.getRateOfInterest());
         IOBBank iobBankGLABranch = new IOBBank();
