@@ -19,6 +19,7 @@ public class IOBBank implements Bank {
 
     @Override
     public int getFixedDepositInterest() {
-        return 0;
+        // the rate of interest of FD is 6%
+        return 6;
     }
 }
