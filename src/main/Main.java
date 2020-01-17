@@ -8,10 +8,12 @@
 package main;
 
 import iciciBank.ICICIBank;
+import iobBank.IOBBank;
 
 public class Main {
     public static void main(String[] args) {
         ICICIBank iciciBankMathuraBranch = new ICICIBank();
         System.out.println("Rate of interest of ICICI Bank is: " + iciciBankMathuraBranch.getRateOfInterest());
+        IOBBank iobBankGLABranch = new IOBBank();
     }
 }
