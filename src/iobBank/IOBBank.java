@@ -19,7 +19,7 @@ public class IOBBank implements Bank {
     /**
      * This method returns the rate of interest in a savings account for IOB bank.
      *
-     * @return the rate of interest in a savings account for IOB bank i.e 4%
+     * @return the rate of interest in a savings account for IOB bank i.e 3%
      */
     @Override
     public int getRateOfInterest() {
@@ -27,6 +27,11 @@ public class IOBBank implements Bank {
         return 3;
     }
 
+    /**
+     * This method returns the rate of interest in a fixed deposit account for IOB bank.
+     *
+     * @return The rate of interest in a fixed deposit account for IOB bank i.e 6%
+     */
     @Override
     public int getFixedDepositInterest() {
         // the rate of interest of FD is 6%
