@@ -18,6 +18,7 @@ public class ICICIBank implements Bank {
 
     @Override
     public int getFixedDepositInterest() {
-        return 0;
+        // the rate of interest of FD is 8%
+        return 8;
     }
 }
