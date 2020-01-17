@@ -27,6 +27,11 @@ public class ICICIBank implements Bank {
         return 4;
     }
 
+    /**
+     * This method returns the rate of interest in a fixed deposit account for ICICI bank.
+     *
+     * @return The rate of interest in a fixed deposit account for ICICI bank i.e 8%
+     */
     @Override
     public int getFixedDepositInterest() {
         // the rate of interest of FD is 8%
